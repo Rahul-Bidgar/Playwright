@@ -1,0 +1,11 @@
+console.log(process.platform);
+//mac-Darwin
+//linux-linux
+//windows-win32
+console.log(process.arch);
+//x64
+//arm64
+//arm
+//ppc64
+//ppc64le
+console.log(process.version);
