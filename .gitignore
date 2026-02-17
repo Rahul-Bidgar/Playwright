@@ -1,27 +1,16 @@
-# Node
 node_modules/
+.env
+.vscode/
+__pycache__/
+*.pyc
 npm-debug.log*
-yarn-error.log
 package-lock.json
 yarn.lock
-
-# Playwright
-test-results/
 playwright-report/
-playwright-report.zip
-*.trace
-
-# VSCode
-.vscode/
-
-# OS
+test-results/
 .DS_Store
-Thumbs.db
-
-# Python
-venv/
-.env
-
-# Logs
-logs/
+.idea/
+coverage/
+dist/
+coverage-report/
 *.log
